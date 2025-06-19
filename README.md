@@ -67,10 +67,10 @@ A robust RESTful and real-time chat server built with **Node.js**, **Express**, 
 │   ├── db.js                     # MongoDB connection setup
 │   └── cloudinary.js             # Cloudinary configuration
 │
-├── controllers/                  # Controllers for business logic
-│   ├── auth.controller.js
-│   ├── user.controller.js
-│   └── message.controller.js
+├── services/                  # services for business logic
+│   ├── auth.service.js
+│   ├── user.services.js
+│   └── message.services.js
 │
 ├── docs/                         # API documentation (Swagger etc.)
 │
@@ -209,12 +209,4 @@ POST /api/v1/message/send/USER_OR_CHAT_ID
 
 ---
 
-## 📝 License
 
-MIT
-
----
-
-**Note:**  
-- Adjust endpoints and request/response formats as per your codebase.  
-- Contributions welcome!
